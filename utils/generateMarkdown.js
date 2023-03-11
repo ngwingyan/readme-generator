@@ -2,20 +2,20 @@
 function generateMarkdown(project) {
   return `# ${project.title}
 
-  License badge
-  <img src = https://img.shields.io/badge/license-${project.license}-blueviolet.svg />
+  ## License badge
+  * <img src = https://img.shields.io/badge/license-${project.license}-blueviolet.svg />
 
   ## Description
   ${project.description}
   
 
   ## Table of Content
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [License](#License)
-  * [Contribution](#Contributing)
-  * [tests](#Tests)
-  * [Questions](#Questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contribution](#contributing)
+  * [tests](#tests)
+  * [Questions](#questions)
 
   ## Installation
   ${project.installation}
